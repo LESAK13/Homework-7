@@ -2,15 +2,82 @@ body {
     background-color: silver;
 }
 
-.navbar-brand {
-    font-size: 40px;
+h1 {
+    font-family: 'Josefin Sans', sans-serif; 
 }
 
+h2 {
+    font-family: 'Righteous', cursive;
+}
+
+h6 {
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+#navbar {
+    background-color: silver;
+}
+
+.nav-link {
+    color: black;
+    font-family: 'Righteous', cursive;
+}
 .nav-item {
     font-size: 24px;
+    color: white;
+}
+
+.jumbotron {
+    background-color: black;
+}
+
+.main-title {
+    color: white;
+    font-size: 90px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#myInfo {
+    color: white;
+    font-family: 'Righteous', cursive;
 }
 
 .text {
     color: black;
     font-size: 20px;
+    font-family: 'Righteous', cursive;
+
 }
+
+#myGithub {
+    font-size: 30px;
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+
+#myLinkedIn {
+    font-size: 30px;
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+
+#myEmail {
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+
+}
+
+#myPhone {
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+}
+
+.btn {
+    font-family: 'Righteous', cursive;
+    font-size: 14px;
+}
+
+
+
+
+

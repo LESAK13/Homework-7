@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,12 +9,13 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <title>Kevin's Portfolio</title>
 </head>
 
 <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">KEVIN LESAK</a>
+    <nav id= "navbar" class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -27,11 +29,27 @@
                     <a class="nav-link" href="#">Portfolio<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="contact.html">Contact Me</a>
                 </li>
             </ul>
         </div>
     </nav>
+
+    <div class="container-full-bg">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4 text-center main-title">kevinLesak</h1>
+                <p id="myInfo" style="text-align: center;"><a id="myGithub" href="https://github.com/LESAK13?tab=repositories" target="_blank">github</a>
+                </p>
+                <p id="myInfo" style="text-align: center;"><a id="myLinkedIn" href="https://www.linkedin.com/in/kevin-lesak-2703401a2/" target="_blank">linkedin</a>
+                </p>
+                <p id="myInfo" style="text-align: center;">lesak13@gmail.com
+                </p>
+                <p id="myInfo" style="text-align: center;">908.305.4157
+                </p>
+            </div>
+        </div>
+    </div>
 
     <br>
 
@@ -42,23 +60,36 @@
         <hr>
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <img src="images/Homework.jpeg" class="card-img-top" alt="Homework">
+                <h2>Calorie Counter</h2>
+                <h6 class="mt-3">An application to help the user track daily calories by mealtype throughout the day.
+                <img src="images/CalorieCounter.png" class="card-img-top mt-3" alt="Project1">
                 <div class="card-body">
-                    <a href="https://lesak13.github.io/Homework-1/" class="btn btn-secondary" target="_blank">Homework
-                        1</a>
+                    <a href="https://dswinicki8.github.io/Calories-tracker/" class="btn btn-secondary"target="_blank">Calorie Counter Application</a>
+                </div>
+                <div class="card-body">
+                    <a href="https://github.com/dswinicki8/Calories-tracker/tree/Kevin" class="btn btn-secondary" target="_blank">Calorie Counter github Repository</a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <img src="images/Game.jpeg" class="card-img-top" alt="Game">
+                <h2>NFL Quiz</h2>
+                <h6 class="mt-3">An application that allows users to test their NFL knowledge and track high scores.</h6>
+                <img src="images/NFLQuiz.png" class="card-img-top mt-3" alt="NFL Quiz">
                 <div class="card-body">
-                    <a href="https://scratch.mit.edu/projects/369697662/" class="btn btn-secondary" target="_blank">My
-                        Scratch Game</a>
+                    <a href="https://lesak13.github.io/Homework-4/" class="btn btn-secondary" target="_blank">NFL Quiz Application</a>
+                </div>
+                <div class="card-body">
+                    <a href="https://github.com/LESAK13/Homework-4" class="btn btn-secondary" target="_blank">NFL Quiz github Repository</a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <img src="images/rps.jpeg" class="card-img-top" alt="Homework">
+                <h2>Weather Dashboard</h2>
+                <h6 class="mt-3">An application for searching the current and future weather conditions by city.</h6>
+                <img src="images/WeatherDashboard.png" class="card-img-top mt-3" alt="Weather Dashboard">
                 <div class="card-body">
-                    <a href="#" class="btn btn-secondary" target="_blank">Rock Paper Scissors</a>
+                    <a href="https://lesak13.github.io/Homework-6/" class="btn btn-secondary" target="_blank">Weather Dashboard Application</a>
+                </div>
+                <div class="card-body">
+                    <a href="https://github.com/LESAK13/Homework-6" class="btn btn-secondary" target="_blank">Weather Dashboard github Repository</a>
                 </div>
             </div>
         </div>
